@@ -100,11 +100,12 @@ class SunushPikirlerPage extends StatelessWidget {
                               const SizedBox(height: 20),
                               TextButtonWidget(
                                 onPressed: () {
-                                  Navigator.push(
+                                  Navigator.pushAndRemoveUntil(
                                     context,
                                     MaterialPageRoute(
                                       builder: (context) => const ProfileView(),
                                     ),
+                                    (route) => false,
                                   );
                                 },
                                 text: 'OK',
