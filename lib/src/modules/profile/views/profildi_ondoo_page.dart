@@ -1,8 +1,9 @@
 import 'package:bir_urma_clone/src/modules/profile/views/change_email_page.dart';
 import 'package:bir_urma_clone/src/modules/profile/views/change_password_page.dart';
 import 'package:bir_urma_clone/src/components/profile_info_widget.dart';
-import 'package:bir_urma_clone/src/constants/text_style/app_text_style.dart';
 import 'package:flutter/material.dart';
+
+import '../../../constants/constants.dart';
 
 class ProfildiOndoo extends StatelessWidget {
   const ProfildiOndoo({Key? key}) : super(key: key);

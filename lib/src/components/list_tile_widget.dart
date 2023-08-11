@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constants/text_style/app_text_style.dart';
+import '../constants/constants.dart';
 
 class ListTileWidget extends StatelessWidget {
   const ListTileWidget({

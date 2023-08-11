@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "868370461493",
+    "project_id": "bir-umma-clone",
+    "storage_bucket": "bir-umma-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868370461493:android:166789f8c87f8296bcd27c",
+        "android_client_info": {
+          "package_name": "com.example.bir_urma_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868370461493-e5ns21faamvo0iij51s2grch5sib5g3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtmNNrVWgbXzWCYaeEAVSa9k0E7Du-U7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868370461493-e5ns21faamvo0iij51s2grch5sib5g3m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "868370461493-8fdferhhll015p3uusciuhs7r9t8f0s9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.birUrmaClone.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

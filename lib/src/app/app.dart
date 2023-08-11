@@ -1,26 +1,24 @@
+import 'package:bir_urma_clone/src/utils/routes/route_name.dart';
 import 'package:flutter/material.dart';
 
-import '../modules/profile/views/profile_view.dart';
+import '../utils/routes/routes.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // final AppRouter _appRouter = AppRouter();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // routeInformationParser: _appRouter.defaultRouteParser(),
-      // routerDelegate: _appRouter.delegate(),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
+          seedColor: Colors.blue,
         ),
         useMaterial3: false,
       ),
-      home: const ProfileView(),
+      initialRoute: RouteName.splashScreen,
+      onGenerateRoute: Routes.generateRoute,
     );
   }
 }
