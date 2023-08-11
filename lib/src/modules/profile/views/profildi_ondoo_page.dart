@@ -1,8 +1,6 @@
-import 'package:bir_urma_clone/src/modules/profile/views/change_email_page.dart';
-import 'package:bir_urma_clone/src/modules/profile/views/change_password_page.dart';
 import 'package:bir_urma_clone/src/components/profile_info_widget.dart';
+import 'package:bir_urma_clone/src/utils/routes/route_name.dart';
 import 'package:flutter/material.dart';
-
 import '../../../constants/constants.dart';
 
 class ProfildiOndoo extends StatelessWidget {
@@ -31,14 +29,7 @@ class ProfildiOndoo extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 25),
             child: InkWell(
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return const ChangeEmailPage();
-                    },
-                  ),
-                );
+                Navigator.pushNamed(context, RouteName.emailChangeScreen);
               },
               child: const Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -62,14 +53,7 @@ class ProfildiOndoo extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 25),
             child: InkWell(
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return const ChangePasswordPage();
-                    },
-                  ),
-                );
+                Navigator.pushNamed(context, RouteName.passwordChangeScreen);
               },
               child: const Column(
                 children: [

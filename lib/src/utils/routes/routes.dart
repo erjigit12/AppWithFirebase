@@ -1,6 +1,8 @@
 import 'package:bir_urma_clone/src/modules/authentication/forgot_password/forgot_password.dart';
 import 'package:bir_urma_clone/src/modules/authentication/login/login_screen.dart';
 import 'package:bir_urma_clone/src/modules/authentication/signup/signup_screen.dart';
+import 'package:bir_urma_clone/src/modules/profile/views/change_email_page.dart';
+import 'package:bir_urma_clone/src/modules/profile/views/change_password_page.dart';
 import 'package:bir_urma_clone/src/modules/profile/views/profildi_ondoo_page.dart';
 import 'package:bir_urma_clone/src/modules/profile/views/profile_screen.dart';
 import 'package:bir_urma_clone/src/modules/profile/views/sunush_pikirler_page.dart';
@@ -26,6 +28,11 @@ class Routes {
         return MaterialPageRoute(builder: (_) => const SunushPikirlerPage());
       case RouteName.changeProfileAndPasswordScreen:
         return MaterialPageRoute(builder: (_) => const ProfildiOndoo());
+      case RouteName.emailChangeScreen:
+        return MaterialPageRoute(builder: (_) => const ChangeEmailPage());
+      case RouteName.passwordChangeScreen:
+        return MaterialPageRoute(builder: (_) => const ChangePasswordPage());
+
       default:
         return MaterialPageRoute(
           builder: (_) {

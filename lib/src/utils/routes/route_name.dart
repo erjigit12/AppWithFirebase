@@ -13,4 +13,8 @@ class RouteName {
 
   static const String changeProfileAndPasswordScreen =
       'changeProfileAndPassword';
+
+  static const String emailChangeScreen = 'emailChange';
+
+  static const String passwordChangeScreen = 'passwordChange';
 }
