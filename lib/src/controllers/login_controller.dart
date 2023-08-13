@@ -2,7 +2,6 @@ import 'package:bir_urma_clone/src/controllers/session_controller.dart';
 import 'package:bir_urma_clone/src/utils/routes/route_name.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
 import '../utils/utils_error_message/error.dart';
 
 class LoginController extends ChangeNotifier {

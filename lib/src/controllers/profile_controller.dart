@@ -9,9 +9,10 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 import '../components/text_button_widget.dart';
 import '../constants/constants.dart';
+
+import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 
 class ProfileController extends ChangeNotifier {
   FirebaseAuth auth = FirebaseAuth.instance;

@@ -3,7 +3,6 @@ import 'package:bir_urma_clone/src/utils/routes/route_name.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-
 import '../utils/utils_error_message/error.dart';
 
 class SignUpController with ChangeNotifier {
